@@ -17,8 +17,16 @@ To begin with, you will want to make sure you have all technologies needed. You 
 * Maven: https://maven.apache.org/install.html
 * JavaFX: https://gluonhq.com/products/javafx/
 
-Once you are ready, import the project into your IDE and run as a Java Application. You will be presented with a landing window which allows you to select between running the server or playing as a client. You can run the application again to bring about another landing screen to simultaneously run the server or client applets, and even load more clients. 
-The server is able to set the port connection, see how many clients are currently playing (based on their client number), and which clients have either connected or disconnected. The client plays the game and is able to make choose a category to guess from and make guesses. This is the basis of the game, and further details are documented in [General Info](#general-info).
+Once you are ready, import the project into your IDE and run as a Java Application. You will be presented with a welcoming screen before you can begin playing. Once the game screen is present, you are able to begin playing by clicking tiles adjacent to the empty tile. To win the game, one must correctly place the empty tile in the **upper left** corner of the board, and follow with the numerical tiles in ascending order from left to right and top to bottom. Example:
+
+![Winning Board](images/winning_board.jpg)
+
+
+The application has four buttons near the top of the window which provide differing functionality: 
+* "New Puzzle" will reset the board and then load up a different puzzle from one out of ten presets (which can be changed in the JavaFXTemplate.java file -- please note that some puzzle configurations can **not** be solved in 15 Puzzle).
+* "Solve with AI H1" will begin a back-end pathfinding process using the A\* search algorithm with the Misplaced Tiles heuristic. This process runs on its own thread as to not block the Application thread. Once the path is found, the "See Solution" button will become active, and when pressed, the game will animate the next 10 correct moves for the user. From then, the user will be able to continue playing the game or select a new puzzle to solve.    
+* "Solve with AI H2" does the same exact thing as "Solve with AI H2" except instead of using the Misplaced Tiles heuristic, the A\* search algorithm utilizes the Manhattan Distance heuristic. 
+* "See Solution" animates the next 10 moves towards the solution of the current puzzle and is only accessable after clicking either "Solve with AI H1" or "Solve with AI H2". 
 
 ***NOTE:*** If you are having issues with installation in Eclipse, the two most common fixes are:
 * Run fix: https://stackoverflow.com/a/57747229
