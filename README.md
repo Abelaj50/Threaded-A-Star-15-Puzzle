@@ -23,10 +23,10 @@ Once you are ready, import the project into your IDE and run as a Java Applicati
 
 
 The application has four buttons near the top of the window which provide differing functionality: 
-* "New Puzzle" will reset the board and then load up a different puzzle from one out of ten presets (which can be changed in the JavaFXTemplate.java file -- please note that some puzzle configurations can ***not*** be solved in 15 Puzzle).
-* "Solve with AI H1" will begin a back-end pathfinding process using the A\* search algorithm with the Misplaced Tiles heuristic. This process runs on its own thread as to not block the Application thread. Once the path is found, the "See Solution" button will become active, and when pressed, the game will animate the next 10 correct moves for the user. From then, the user will be able to continue playing the game or select a new puzzle to solve.    
-* "Solve with AI H2" does the same exact thing as "Solve with AI H2" except instead of using the Misplaced Tiles heuristic, the A\* search algorithm utilizes the Manhattan Distance heuristic. 
-* "See Solution" animates the next 10 moves towards the solution of the current puzzle and is only accessable after clicking either "Solve with AI H1" or "Solve with AI H2". 
+* **"New Puzzle"** will reset the board and then load up a different puzzle from one out of ten presets (which can be changed in the JavaFXTemplate.java file -- please note that some puzzle configurations can ***not*** be solved in 15 Puzzle).
+* **"Solve with AI H1"** will begin a back-end pathfinding process using the A\* search algorithm with the Misplaced Tiles heuristic. This process runs on its own thread as to not block the Application thread. Once the path is found, the "See Solution" button will become active, and when pressed, the game will animate the next 10 correct moves for the user. From then, the user will be able to continue playing the game or select a new puzzle to solve.    
+* **"Solve with AI H2"** does the same exact thing as "Solve with AI H2" except instead of using the Misplaced Tiles heuristic, the A\* search algorithm utilizes the Manhattan Distance heuristic. 
+* **"See Solution"** animates the next 10 moves towards the solution of the current puzzle and is only accessable after clicking either "Solve with AI H1" or "Solve with AI H2". 
 
 ***NOTE:*** If you are having issues with installation in Eclipse, the two most common fixes are:
 * Run fix: https://stackoverflow.com/a/57747229
