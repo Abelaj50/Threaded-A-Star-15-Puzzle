@@ -40,7 +40,7 @@ Project is created with:
 * Java SE 8
 
 ## Credits
-All credits for the project idea go to Professor Mark Hallenbeck. Credits to the [A_IDS_A_15solver.java](src/main/java/A_IDS_A_15solver.java), DB_Solver2.java, Node.java, and Userinterface.java codebase also go to Professor Mark Hallenbeck as the beginning template for our project. Credits to Lyshastra on DeviantArt (https://www.deviantart.com/lyshastra) for the galaxy artwork used on the game tiles as seen within this program. All credits to technologies used are given to their owners and all items specified in their respective licenses are adhered to throughout this project.  
+All credits for the project idea go to Professor Mark Hallenbeck. Credits to the [A_IDS_A_15solver.java](src/main/java/A_IDS_A_15solver.java), [DB_Solver2.java](src/main/java/DB_Solver2.java), [Node.java](src/main/java/Node.java), and [Userinterface.java](src/main/java/Userinterface.java) codebase also go to Professor Mark Hallenbeck as the beginning template for our project. Credits to [Lyshastra](https://www.deviantart.com/lyshastra) on DeviantArt for the galaxy artwork used on the game tiles as seen within this program. All credits to technologies used are given to their owners and all items specified in their respective licenses are adhered to throughout this project.  
 
 ## Visual Demonstration
 The following link leads to a visual demonstration of the project.
