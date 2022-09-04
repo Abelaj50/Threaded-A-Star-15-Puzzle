@@ -1,5 +1,5 @@
 # Threaded-A-Star-15-Puzzle
-Classic game of 15 Puzzle with threaded AI path finding using the A-Star search algorithm. CS 342 Project 4, UIC Spring 2021.
+Classic game of 15 Puzzle with threaded AI path finding using the A-Star search algorithm and two heuristics, the Misplaced Tiles and Manhattan Distance heuristics. CS 342 Project 4, UIC Spring 2021.
 
 ## Table of contents
 * [General Info](#general-info)
